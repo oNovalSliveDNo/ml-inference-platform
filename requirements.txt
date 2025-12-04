@@ -1,0 +1,30 @@
+# =========================
+# Core application
+# =========================
+streamlit
+
+# =========================
+# Environment & utilities
+# =========================
+python-dotenv
+packaging
+
+# =========================
+# Database
+# =========================
+psycopg2-binary
+
+# =========================
+# ML / scientific stack
+# =========================
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+joblib
+
+# =========================
+# Visualization
+# =========================
+matplotlib
