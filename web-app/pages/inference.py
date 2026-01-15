@@ -134,7 +134,7 @@ for i, col in enumerate(cols):
     true_label, vec, r, c = row
     img = vec_to_pil(vec, r, c)
 
-    col.image(img, caption=str(true_label), use_container_width=True)
+    col.image(img, caption=str(true_label), width='stretch')
     if col.button(f"{true_label}", key=f"pick_mnist_{i}"):
         pred, probs = predict_via_api(img)
         clicked = (true_label, pred, probs)

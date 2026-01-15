@@ -47,7 +47,7 @@ try:
         ],
     )
 
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df, width='stretch')
 
 finally:
     put_conn(conn)
